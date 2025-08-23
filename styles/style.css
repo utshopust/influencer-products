@@ -143,7 +143,17 @@ hr{
 }
 
 
-
+.cart-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.more{
+    text-align: end;
+    margin-right: 24px;
+    font-weight: bold;
+    color:#E02C6D;
+}
 
 
 
@@ -179,5 +189,13 @@ hr{
     hr{display: none;}
     .store-container{
         margin-top: 50px;
+    }
+    .cart-container{
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+    }
+    .more{
+    text-align: end;
+    margin-right: 30px;
     }
 }
