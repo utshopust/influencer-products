@@ -94,3 +94,36 @@ hr{
 }
 
 /* responsive for small devices */
+@media screen and (max-width: 576px) {
+    .nav-links{
+        display: none;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .brand{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .banner-content{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .logo-container{
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        gap: 25px;
+    }
+    hr{display: none;}
+    .store-container{
+        margin-top: 50px;
+    }
+}
