@@ -261,4 +261,7 @@ footer{
     text-align: end;
     margin-right: 30px;
     }
+    .footer-container{
+        padding: 0px;
+    }
 }
