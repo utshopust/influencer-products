@@ -198,12 +198,12 @@ hr{
     .nav-links{
         display: none;
     }
-    .banner{
+    .banner, .feature-items{
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
         text-align: center;
-        margin: 0 auto;
+        
     }
     .brand{
         text-align: center;
