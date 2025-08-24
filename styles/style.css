@@ -264,4 +264,11 @@ footer{
     .footer-container{
         padding: 0px;
     }
+    .main-camera{
+        margin-right: 0px;
+        max-width: 100%;
+    }
+    .feature-image{
+        max-width: 100%;
+    }
 }
